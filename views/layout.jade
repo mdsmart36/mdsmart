@@ -1,7 +1,18 @@
 doctype html
-html
+html(ng-app='portfolio')
   head
+    base(href='/')
     title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    block content
+    include partials/nav
+    div(ng-view)
+      block content
+
+    script(src="javascripts/jquery.js")
+    script(src="javascripts/angular.js")
+    script(src="javascripts/angular-route.js")
+    script(src="javascripts/bootstrap.min.js")
+    script(src="app/app.js")
+    script(src="app/controllers.js")

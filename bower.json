@@ -1,0 +1,22 @@
+{
+  "name": "mdsmart",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mdsmart36/mdsmart",
+  "authors": [
+    "Matthew Smart <mdsmart36@gmail.com>"
+  ],
+  "description": "Developer Portfolio",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.0",
+    "angular": "~1.4.0",
+    "bootstrap": "~3.3.4"
+  }
+}
