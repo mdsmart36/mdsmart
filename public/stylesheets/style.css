@@ -3,8 +3,32 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 a {
-  color: #00B7FF;
+  color: blue;
+}
+
+.small-pic {
+  display: inline-block;
+  max-height: 140px;
+  max-width: 280px;
+  padding: 5px;
+}
+
+.xs-pic {
+  display: inline-block;
+  max-height: 70px;
+  max-width: 140px;
+  padding: 5px;
+}
+
+.text-10pt {
+  font-size: 10pt;
 }
 
 .small-pic {

@@ -1,1 +1,21 @@
-h1 {{message}}
+p You can contact me through one of these channels:
+p matt (dot) smart (at) nashvillesoftwareschool.com
+
+.row
+  .col-md-12
+    div(ng-repeat='contact in contactMethods')
+      a(href="{{contact.contactURL}}", target='_blank')
+        img.img-responsive.xs-pic(ng-src='images/{{contact.logo}}', alt='{{contact.title}}', title='{{contact.title}}')
+    //- a(href="https://www.facebook.com/mdsmart" target="_blank")
+    //-   img.img-responsive.xs-pic(src="images/FB-f-Logo__blue_144.png", alt="Facebook", title="Facebook")
+    //- a(href="https://www.twitter.com/mdsmart", target="_blank")
+    //-   img.img-responsive.xs-pic(src="images/Twitter_logo_blue.png", alt="Twitter", title="Twitter")
+    //- a(href="https://www.linkedin.com/in/matthewdsmart/en", target="_blank")
+    //-   img.img-responsive.xs-pic(src="images/Logo-2C-128px-TM.png", alt="LinkedIn", title="LinkedIn")
+    p 
+
+    //- Google Voice 'Call Me' widget
+    object(type="application/x-shockwave-flash", data="https://clients4.google.com/voice/embed/webCallButton", width="230", height="85")
+      param(name="movie", value="https://clients4.google.com/voice/embed/webCallButton")
+      param(name="wmode", value="transparent")
+      param(name="FlashVars", value="id=bf414d49092bb9de15787353a7a23eff202b09fa&style=0")

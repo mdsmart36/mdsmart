@@ -7,7 +7,7 @@ app.config(['$routeProvider', function($routeProvider){
     .when('/projects', {templateUrl: 'partials/projects', controller: 'projectsController'})
     .when('/tech', {templateUrl: 'partials/tech', controller: 'techController'})
     .when('/contact', {templateUrl: 'partials/contact', controller: 'contactController'})
-    .otherwise({redirectTo:'/about'})
+    .otherwise({redirectTo:'/'})
 }])
 
 .config(['$locationProvider', function($locationProvider) {
