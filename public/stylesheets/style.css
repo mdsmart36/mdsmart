@@ -1,6 +1,9 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+  padding: 25px;
+  background-image: url('../images/wallpaper-of-nashville-usa.jpg');
+  background-size: 100%;
+  opacity: .8;
 }
 
 p {
@@ -10,7 +13,7 @@ p {
 }
 
 a {
-  color: blue;
+  color: black;
 }
 
 .small-pic {
@@ -36,4 +39,12 @@ a {
   max-height: 140px;
   max-width: 280px;
   padding: 5px;
+}
+.mybackground {
+  /*background-color: #D0D7F2;*/
+  background-color: #8397E6;
+}
+
+blockquote footer {
+  color: black;
 }

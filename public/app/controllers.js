@@ -29,14 +29,14 @@ controllers.controller('projectsController', ['$scope', function($scope){
 
 controllers.controller('techController', ['$scope', function($scope){
   $scope.myStack = [
-    {imgSource: 'html5.png', name: 'HTML5', description: 'HTML provides the semantic structure to your page, giving it meaning and relationship to other elements on your page.'},
-    {imgSource: 'css3.png', name: 'CSS3', description: 'CSS provides the styling (color, position, font, padding, etc.) to your page\'s elements.'},
-    {imgSource: 'JavaScript-logo.png', name: 'Javascript', description: 'Javascript allows you to programmatically change your page data and provide user interactivity.'},
+    {imgSource: 'html5.png', name: 'HTML5', description: 'HTML is a markup language that provides the semantic structure to a web page, giving it meaning and relationship.'},
+    {imgSource: 'css3.png', name: 'CSS3', description: 'CSS, or Cascading Style Sheets, provides the styling (color, position, font, padding, etc.) to your page\'s elements.'},
+    {imgSource: 'JavaScript-logo.png', name: 'Javascript', description: 'Javascript is the language of the web browser, allowing you to programmatically change your page data and provide user interactivity.'},
     {imgSource: 'jquery_logo.png', name: 'jQuery', description: 'jQuery is a Javascript library allowing easier page manipulation.'},
     {imgSource: 'bootstrap-logo.png', name: 'Bootstrap', description: 'Bootstrap is a front-end responsive framework providing tools for quickly developing mobile-ready, responsive, and consistent looking pages.'},
-    {imgSource: 'firebase_logo.png', name: 'Firebase', description: 'A client providing database functionality.'},
+    {imgSource: 'firebase_logo.png', name: 'Firebase', description: 'A NoSQL database service allowing documents to be sored in the popular JSON format.'},
     {imgSource: 'github-logo-transparent.png', name: 'Github', description: 'An online repository for your source code, allowing you to share, collaborate, and manage with ease.'},
-    {imgSource: 'visualstudio.png', name: 'Visual Studio', description: 'A full-featured development environment for developing Microsoft-based products.'},
+    {imgSource: 'visualstudio.png', name: 'Visual Studio', description: 'A full-featured development environment for building Microsoft-based products.'},
     {imgSource: 'ubuntu-logo14.png', name: 'Ubuntu', description: 'An open-source operating system based on Linux which makes developing and deploying apps much easier!'},
     {imgSource: 'nodejs.svg', name: 'Node', description: 'A technology which allows Javascript to be utilized more robustly outside the web browser.'},
     {imgSource: 'express.png', name: 'Express', description: 'A web framework for use with Node.js'},
@@ -57,7 +57,7 @@ controllers.controller('techController', ['$scope', function($scope){
 controllers.controller('contactController', ['$scope', function($scope){
   $scope.contactMethods = [
     {contactURL: 'https://www.facebook.com/mdsmart', logo: 'FB-f-Logo__blue_144.png', title: 'Facebook'},
-    {contactURL: 'https://www.twitter.com/mdsmart', logo: 'Twitter_logo_blue', title: 'Twitter'},
+    {contactURL: 'https://www.twitter.com/mdsmart', logo: 'Twitter_logo_blue.png', title: 'Twitter'},
     {contactURL: 'https://www.linkedin.com/in/matthewdsmart/en', logo: 'Logo-2C-128px-TM.png', title: 'LinkedIn'}
   ];
 
