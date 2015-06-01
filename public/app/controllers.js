@@ -11,7 +11,7 @@ controllers.controller('navController', ['$scope', function($scope){
     {name:'My Stack', route: '/tech'},
     {name:'Contact', route: '/contact'},
     {name:'Github', route: 'http://github.com/mdsmart36'},
-    {name:'Resume', route: '#'}
+    {name:'Resume', route: '/resume'}
     ];
 }])
 
@@ -34,6 +34,7 @@ controllers.controller('techController', ['$scope', function($scope){
     {imgSource: 'JavaScript-logo.png', name: 'Javascript', description: 'Javascript is the language of the web browser, allowing you to programmatically change your page data and provide user interactivity.'},
     {imgSource: 'jquery_logo.png', name: 'jQuery', description: 'jQuery is a Javascript library allowing easier page manipulation.'},
     {imgSource: 'bootstrap-logo.png', name: 'Bootstrap', description: 'Bootstrap is a front-end responsive framework providing tools for quickly developing mobile-ready, responsive, and consistent looking pages.'},
+    {imgSource: 'AngularJS-Shield-small.png', name: 'Angular', description: 'An open-source, Javascript-based web application framework using the Model-View-Controller architechture which extends the functionality of HTML.'},
     {imgSource: 'firebase_logo.png', name: 'Firebase', description: 'A NoSQL database service allowing documents to be sored in the popular JSON format.'},
     {imgSource: 'github-logo-transparent.png', name: 'Github', description: 'An online repository for your source code, allowing you to share, collaborate, and manage with ease.'},
     {imgSource: 'visualstudio.png', name: 'Visual Studio', description: 'A full-featured development environment for building Microsoft-based products.'},
@@ -63,3 +64,6 @@ controllers.controller('contactController', ['$scope', function($scope){
 
 }]);
 
+controllers.controller('resumeController', ['$scope', function($scope){
+  $scope.resumeFile = 'Matthew Smart - resume.pdf';
+}]);

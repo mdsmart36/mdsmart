@@ -48,3 +48,7 @@ a {
 blockquote footer {
   color: black;
 }
+
+.pdf {
+  height: 700px;
+}
