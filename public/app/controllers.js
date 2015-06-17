@@ -21,9 +21,11 @@ controllers.controller('aboutController', ['$scope', function($scope){
 
 controllers.controller('projectsController', ['$scope', function($scope){
   $scope.myProjects = [
+    {codeURL: 'http://mdsmart36.github.io', title: 'Simple Portfolio', description: 'A simple portfolio web site using HTML, CSS, JavaScript, jQuery, and Bootstrap'},
+    {codeURL: '#', title: 'Capstone Project (coming soon)', description: 'An app using Angular, Firebase, Bootstrap, and Heroku designed for high school track coaches to help manage their team.'},
+    {codeURL: 'http://shielded-fortress-2882.herokuapp.com/', title: 'BookKeeper', description: 'An app using Node.js, Express, MongoDB, Embedded Javascript, Bootstrap, and Heroku for deployment. Use username \'demo\' and password \'1234\' to try it out.' },
     {codeURL: 'http://mdsmart36.github.io/projects/weather/index.html', title: 'Weather API', description: 'A page illustrating a basic Ajax API call to Weather Underground and using geolocation information to pre-populate a data field with the user\'s zip code.'},
-    {codeURL: 'http://mdsmart36.github.io/projects/savings/index.html', title: 'Savings Multiplied Part 1', description: 'A mock website using Bootstrap as the layout framework, and jQuery API calls to Firebase to populate the auction page.'},
-    {codeURL: 'http://shielded-fortress-2882.herokuapp.com/', title: 'BookKeeper', description: 'An app using Node.js, Express, MongoDB, Embedded Javascript, Bootstrap, and Heroku for deployment.'}
+    {codeURL: 'http://mdsmart36.github.io/projects/savings/index.html', title: 'Savings Multiplied Part 1', description: 'A mock website using Bootstrap as the layout framework, and jQuery API calls to Firebase to populate the auction page.'}
   ];
 }]);
 
